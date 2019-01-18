@@ -1,0 +1,33 @@
+html{
+	overflow:hidden;
+}
+
+body{
+	font-family:"Segoe UI","Microsoft YaHei","Hiragino Sans GB","STXihei";
+	font-size:1em;
+	font-weight:lighter;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	margin:0;
+	padding:0;
+}
+
+div{
+	margin:0;
+	padding:0;
+	position: absolute;
+	top: 0px;
+	left:0px;
+}
+
+#text_box{
+	margin: 1em;
+	color: white;
+	font-weight: normal;	
+}
+
+#offset_info,#bezier_info,#point_info{
+	color: gray;
+}

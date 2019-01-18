@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="assets/style.css"/>
+		<script src="lib/jQuery.js"></script>
+		<script src="lib/bezier.js"></script>
+		<script src="lib/polygon.js"></script>
+		<script src="lib/pixi.min.js"></script>
+		<script src="lib/event.js"></script>
+	</head>
+	<body>
+		<div id="canvas_box">
+			<div id="text_box">
+				<span style="font-size:150%">
+					Bezier Curve & Offset Curve
+				</span><br/>
+				A sample of order-6 bezier curve and its offset.<br/>
+				Use the mouse to <span style="font-weight:bold">drag</span> the control points.<br/>
+				<span style="font-weight:bold">Scroll</span> to change the offset radius.<br/><br/>
+				<span id="offset_info">offset = 30 px</span><br/>
+				<span id="bezier_info">0 vertices on the bezier curve</span><br/>
+				<span id="point_info">0 vertices on the offset curve</span><br/>
+			</div>
+		</div>
+	</body>
+</html>
